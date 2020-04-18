@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leviathan Template</title>
+    <meta
+      name="description"
+      content="Leviathan template from Wildtype.is. Built with HTML, CSS, and a tiny, tiny bit of JavaScript."
+    />
+    <link
+      rel="shortcut icon"
+      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/mozilla/36/dragon_1f409.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div><a href="#">Leviathan</a></div>
+      <nav>
+        <ul>
+          <li class="menu">▲</li>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">Our team</a></li>
+          <li><a href="#">Docs</a></li>
+          <li><a href="#">Get started</a></li>
+        </ul>
+        <div class="nav-overlay"></div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="text">
+          <h1>Come out, oh creature of the deep.</h1>
+          <p>
+            SimSpace is the visionary yet practical platform for measuring how
+            your security system responds under actual, sustained attack. We are
+            moving global business from total denial to full preparedness.
+          </p>
+        </div>
+        <div class="supporting"></div>
+      </section>
+      <section>
+        <div class="supporting"></div>
+        <div class="text">
+          <h2>From the Department of Defense to defending your network.</h2>
+          <p>
+            The principles and methods behind SimSpace were born in the crucible
+            of the Department of Defense. They call it "train like you fight."
+            We have advanced and refined those simulation skills — leveraging
+            Red, Blue and White Teams — for the everyday realities of enterprise
+            companies. We predict to protect.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="text">
+          <h2>Find what's broken and fix it quickly.</h2>
+          <p>
+            The gap between what security systems promise in their marketing,
+            and what they deliver in action, is real. Is dangerous. And can be
+            closed. With SimSpace you can put on your eyeglasses of the future,
+            and watch your network behave when subjected to a variety of
+            real-world attacks.
+          </p>
+        </div>
+        <div class="supporting"></div>
+      </section>
+      <section>
+        <div class="supporting"></div>
+        <div class="text">
+          <h2>From the Department of Defense to defending your network.</h2>
+          <p>
+            The principles and methods behind SimSpace were born in the crucible
+            of the Department of Defense. They call it "train like you fight."
+            We have advanced and refined those simulation skills — leveraging
+            Red, Blue and White Teams — for the everyday realities of enterprise
+            companies. We predict to protect.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script>
+      let open = !1;
+      document.querySelector(".menu").addEventListener("click", (e) => {
+        open = !open;
+        document
+          .querySelector(".nav-overlay")
+          .classList.toggle("nav-overlay-open");
+      });
+    </script>
+  </body>
+</html>
